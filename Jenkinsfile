@@ -3,12 +3,12 @@ pipeline{
 
     stages{
         stage("hello"){
-            step{
+            steps{
                 echo "Hello World"
             }
         }
         stage("tata"){
-            step{
+            steps{
                 echo "tata"
             }
         }
